@@ -404,6 +404,7 @@ a:focus {
     grid-template-columns: 1fr;
     grid-template-areas: none; 
   }
+
      .images-list {
     display: grid;
     grid-template-columns: 1fr;
@@ -417,6 +418,7 @@ a:focus {
 .img-street {
   grid-area: auto; 
 }
+
   .images-list img {
     width: 100%;
     height: auto;
