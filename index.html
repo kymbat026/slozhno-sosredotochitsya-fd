@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="theme-light">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark light">
     <title>Сложно сосредоточиться</title>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/dark.css">
     <link rel="stylesheet" href="./styles/light.css">
@@ -44,7 +45,7 @@
           </li>
         </ul>
       </nav>
-      <span class="header__rec"></span>
+      <span class="header__rec">REC</span>
       <h1 class="header__title title">no focus</h1>
       <p class="header__description title-decor">
         Что делать, когда не можешь делать ничего
@@ -133,10 +134,11 @@
       <section class="main__content-section">
         <div class="section">
           <h2 class="section__title">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h2>
-          <div>
-            <article class="main__article">
-              <h3 class="title-decor">5 простых (на самом деле не очень) советов</h3>
-              <h4 class="subtitle">Представьте небо и облака</h4>
+          <div class="section__right">
+          <h3 class="section_subtitle title-decor">5 простых (на самом деле не очень) советов</h3>
+          <div class="section__content">
+              <article class="main__article">
+              <h4 class="title-decor title-decor_light">Представьте небо и облака</h4>
               <p class="paragraph">
                 Или листья в ручье. Тут дело в лёгкой медитации, 
                 которая помогает успокоиться. 
@@ -151,7 +153,7 @@
               </p>
             </article>
             <article class="main__article">
-              <h4 class="subtitle">Включите музыку</h4>
+              <h4 class="title-decor title-decor_light">Включите музыку</h4>
               <p class="paragraph">
                 Но не любую, и не любимую. Любимая может быть связана 
                 с сильными положительными эмоциями, 
@@ -162,7 +164,7 @@
               </p>
             </article>
             <article class="main__article">
-              <h4 class="subtitle">Прогуляйтесь</h4>
+              <h4 class="title-decor title-decor_light">Прогуляйтесь</h4>
               <p class="paragraph">
                 Или даже пробегитесь. Лучше найти парк или лес: 
                 один эксперимент 
@@ -175,7 +177,7 @@
               </p>
             </article>
             <article class="main__article">
-              <h4 class="subtitle">Хорошо ешьте</h4>
+              <h4 class="title-decor title-decor_light">Хорошо ешьте</h4>
               <p class="paragraph">
                 Мы — не ваша бабушка, но это правда важно. 
                 Выбирайте продукты, которые препятствуют резким скачкам 
@@ -185,7 +187,7 @@
               </p>
             </article>
             <article class="main__article">
-              <h4 class="subtitle">Читайте</h4>
+              <h4 class="title-decor title-decor_light">Читайте</h4>
               <p class="paragraph">
                 Настоящие бумажные книги. Это правда помогает с концентрацией: 
                 чтобы прочитать пост в соцсети, достаточно нескольких минут или даже секунд. 
@@ -193,6 +195,7 @@
                 часов и круто тренирует направленное внимание.
               </p>
             </article>
+            </div>
           </div>
         </div>
       </section>
@@ -200,12 +203,8 @@
         <h3 class="title-decor title-images">А можно в картинках?</h3>
         <div class="section__images">
           <img class="img-sunset" src="./images/sunset.png" alt="Закат над горами" loading="lazy">
-          <div class="section__img-ice-cream">
-            <img class="img-ice-cream" src="./images/ice-cream.png" alt="Мульташные шарики с мороженным в улыбающейся миске" loading="lazy">
-          </div>
-          <div class="section__img-tape">
-            <img class="img-tape" src="./images/tape.png" alt="Касета для прослушивания музыки в плеере" loading="lazy">
-          </div>
+          <img class="img-ice-cream" src="./images/ice-cream.png" alt="Мульташные шарики с мороженным в улыбающейся миске" loading="lazy">
+          <img class="img-tape" src="./images/tape.png" alt="Касета для прослушивания музыки в плеере" loading="lazy">
           <img class="img-books" src="./images/books.png" alt="Стопка книг с чашкой наверху" loading="lazy">
           <img class="img-street" src="./images/street.png" alt="Пустая улица в фиолетовом цвете" loading="lazy">
         </div>

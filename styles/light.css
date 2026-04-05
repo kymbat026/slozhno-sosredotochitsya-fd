@@ -33,9 +33,7 @@
   --text-color: #2d2c2c;
 }
 
-.theme-light .header__rec {
-  display: none;
-}
+
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -55,7 +53,5 @@
     --decription-text-color: #353430;
   }
 
-  .header__rec {
-    display: none;
-  }
+
 }
