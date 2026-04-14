@@ -29,7 +29,7 @@
   --footer-shadow-color: #FF8DCB;
 
   --button-color: #353430;
-  --button-hover-color: #353430;
+  --button-hover-color: rgb(50 49 45 / 0.4);
   --text-color: #2d2c2c;
 }
 
