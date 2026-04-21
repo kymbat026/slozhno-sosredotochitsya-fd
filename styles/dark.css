@@ -28,9 +28,6 @@
   --accent-color: #FF0070;
 
   --a-color: #F1B2CE;
-  --text-font: 'IBM Plex Mono', monospace;
-  --text-size: 18px;
-  --text-line-height: 23.4px;
   --text-color: #e4dcdc;
 
   --footer-text-color: #DB00FF;
@@ -38,8 +35,7 @@
   --footer-shadow-color: #FF0070;
 }
 
-  .theme-dark .header__rec {
-  display: flex;
-  animation: blink 1s infinite;
-}
-
+.theme-dark .header__rec { 
+  display: flex; 
+  animation: blink 1s infinite; 
+} 

@@ -33,6 +33,9 @@
   --text-color: #2d2c2c;
 }
 
+:root.theme-light .header__rec {
+  display: none;
+}
 
 
 @media (prefers-color-scheme: light) {
@@ -51,7 +54,16 @@
 
     --decription-color: #FF8DCB;
     --decription-text-color: #353430;
+
+     --footer-text-color: #FFC2E6;
+     --footer-stroke-color: #FF8DCB;
+     --footer-shadow-color: #FF8DCB;
+
+     --button-color: #353430;
+     --button-hover-color: rgb(50 49 45 / 0.4);
+     --text-color: #2d2c2c;
   }
-
-
+  .header__rec {
+    display: none;
+  }
 }

@@ -23,16 +23,3 @@
   --a-color: #F1B2CE;
   --corners-color: #FF0070;
 }
-@font-face {
-  font-family: 'IBM Plex Mono';
-  src: url('../fonts/IBMPlexMono-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'IBM Plex Mono';
-  src: url('../fonts/IBMPlexMono-Bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-}
