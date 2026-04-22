@@ -21,23 +21,17 @@ body {
   font-family: var(--text-font), monospace;
 }
 
-h1, h2, h3, h4, p {
-  margin: 0;
-}
-
 .header {
   position: relative;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   grid-template-columns: 1fr; 
-  min-height: 100vh;
-  
-  
+  height: 100vh;
+  min-height: 668px;
 }
   
 .decorated-zone {
   position: relative;
-  
 }
 
 .header__theme-menu {
@@ -55,7 +49,7 @@ h1, h2, h3, h4, p {
 }
 
 .header__rec {
-  display: none; 
+  display: flex; 
   position: absolute;
   font-size: 18px;
   color: #FF0070;
@@ -73,7 +67,6 @@ h1, h2, h3, h4, p {
   border-radius: 50%;
   margin-top: 5px;
   margin-left: 5px;
-  
 }
 
 @keyframes blink {
@@ -190,7 +183,6 @@ h1, h2, h3, h4, p {
   line-height: var(--text-line-height, 23.4px);
   color: var(--paragraph-text-color, #F1B2CE);
   font-weight: normal;
-  
 }
 
 .paragraph:not(:first-child) {
@@ -206,8 +198,6 @@ h1, h2, h3, h4, p {
     "sunset sunset ice-cream"
     "tape books ice-cream"
     "tape street street";
-  
-  
 }
 
 .section__images img {
@@ -300,7 +290,7 @@ h1, h2, h3, h4, p {
     padding: 20px;
   }
 
-  .header__theme-menu-list {
+.header__theme-menu-list {
     display: flex;
     gap: 12px;
     letter-spacing: 0;
@@ -313,7 +303,6 @@ h1, h2, h3, h4, p {
 
 .corners::after {
   bottom: 20px;
-  
 }
 
 .header__rec {
@@ -323,12 +312,9 @@ h1, h2, h3, h4, p {
 
 .title {
   align-self:center;
- 
-  
 }
 
 .title-decor {
-  
   margin-bottom: 10px;
 }
 
@@ -344,27 +330,21 @@ h1, h2, h3, h4, p {
  align-self: end;
  margin-bottom: 130px;
  margin-right: 20px;
-  
 }
 
 .section {
-  grid-template-columns: 1fr 2.06fr;
-  
-   gap: 20px;
-   align-items: start;
+  grid-template-columns: 1fr 2.06fr; 
+  gap: 20px;
+  align-items: start;
 }
 
 .section__title {
-  margin: 0;
-  
+  margin: 0; 
 }
 
 .title-decor {
   margin-top: 0;
-  
 }
-
-
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -381,7 +361,6 @@ h1, h2, h3, h4, p {
     align-self: center;
     margin-top: 40px;
   }
-
 
   .header__theme-menu-list {
     flex-direction: column;
@@ -406,8 +385,7 @@ h1, h2, h3, h4, p {
 
    .header__description {
   bottom: 155px;
-    max-width: 364px; 
-    
+  max-width: 364px; 
   }
 
   .section {
@@ -425,7 +403,6 @@ h1, h2, h3, h4, p {
   }
 
   .footer {
-    min-height: 1024px;
     align-items: center;
   }
 
@@ -437,6 +414,10 @@ h1, h2, h3, h4, p {
 @media (max-width: 767px) {
   .decorated-zone {
     min-height: 668px;
+  }
+
+  .header{
+    padding: 10px;
   }
 
   .header__theme-menu {
@@ -512,7 +493,6 @@ h1, h2, h3, h4, p {
     height: auto;
   }
 
- 
   .corners::before {
     top: 10px;
     right: 10px;
@@ -521,11 +501,6 @@ h1, h2, h3, h4, p {
   .corners::after {
     bottom: 10px;
     left: 10px;
-  }
-
-  .footer {
-    min-height: 667px;
-    margin-top: 45px;
   }
 
   .footer__title {
